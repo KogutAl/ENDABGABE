@@ -21,7 +21,10 @@ Ziel ist das Zufällige Abspielen von Liedern und eine Untermalung der Atmosphä
 
  &nbsp;
  
-[Hier mehr über das Projekt erfahren](https://www.behance.net/gallery/17327583/Klangfarben?tracking_source=search_projects_recommended%7Cphysical%20computing)
+[Recherche_1](https://www.youtube.com/watch?v=jco-uU5ZgEU)
+[Recherche_2](https://www.arduinoplatform.com/subscription-projects/create-a-touch-button-with-copper-aluminum-foil/)
+[Recherche_3](https://www.kobakant.at/DIY/?p=8906)
+[Recherche_4](https://mehackit.org/en/courses/electronics_and_programming_basics/02-switch-stuff-on-and-off/03-exercise-1/)
 
  &nbsp;
  
