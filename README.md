@@ -2,19 +2,12 @@
 #### (*Semesterendprojekt SoSe22 von Alona Kogut*)
  &nbsp;
 
-![Bild zeigt Hand die Apparatur nutzen](https://mir-s3-cdn-cf.behance.net/project_modules/disp/44c08617327583.562b89aa4da9f.jpg)
+![Bild zeigt Detektiv und seine Ausrüstung](https://static.vecteezy.com/system/resources/previews/002/183/856/original/detective-accessories-in-retro-style-on-background-vector.jpg)
 
 ---
 ### **Konzept**
 ---
-Kreiere eine Playlist, weise Farben hinzu und kombiniere bis zu 8 von diesen auf einer kleinen Disc mit RFID tags.
-
-
-- Technologie für Sender-Empfänger-Systeme
-- kontaktlose Lokaliserung und Übermittlung von Daten
-- Senden durch Antenne oder Mikrochip
-- Senden durch integrierte Schaltung (IC) möglich
-- Mikrochip wird mit den gewünschten Daten beschrieben
+Schlüpfe in die Rolle des Detektiven XY und löse den Mord, der sich innerhalb eines Raum abgespielt hat. Alle Antworten befinden sich in diesem einen Zimmer. Suche nach Hinweisen und untersuche diese, um Tonspuren oder visuelle Effekte zu aktivieren, die auf die Aufklärung deuten könnten. Damit der Detektiv eine logische Gedankenkette bilden kann, ist es wichtig die Komponenten in der korreten Abfolge zu untersuchen.
 
  &nbsp;
  
