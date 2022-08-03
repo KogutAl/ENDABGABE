@@ -27,9 +27,7 @@ Schlüpfe in die Rolle des Detektiven XY und löse den Mord, der sich innerhalb 
 ### **3) Wie funktioniert die interaktive Story?**
 ---
 
-Man erstellt Playlist-Themes und ordnet diesen bestimmte Farben zu. Z.B. nostalgische Songs werden *blau*, Entspannung wird durch die Farbe *grün* repräsentiert.
-Durch drehen des "Records" werden Songs abgespielt. "Zufälliges Replay" verhindert hier das ständige Wiederholen der selben Songs.
-Ziel ist das Zufällige Abspielen von Liedern und eine Untermalung der Atmosphäre durch die Farblichter.
+WIP
 
  &nbsp;
  
@@ -37,9 +35,7 @@ Ziel ist das Zufällige Abspielen von Liedern und eine Untermalung der Atmosphä
 ### **4) Schaltplan**
 ---
 
-Man erstellt Playlist-Themes und ordnet diesen bestimmte Farben zu. Z.B. nostalgische Songs werden *blau*, Entspannung wird durch die Farbe *grün* repräsentiert.
-Durch drehen des "Records" werden Songs abgespielt. "Zufälliges Replay" verhindert hier das ständige Wiederholen der selben Songs.
-Ziel ist das Zufällige Abspielen von Liedern und eine Untermalung der Atmosphäre durch die Farblichter.
+WIP
 
  &nbsp;
  
@@ -47,9 +43,7 @@ Ziel ist das Zufällige Abspielen von Liedern und eine Untermalung der Atmosphä
 ### **5) Dokumentation/Ablauf**
 ---
 
-Man erstellt Playlist-Themes und ordnet diesen bestimmte Farben zu. Z.B. nostalgische Songs werden *blau*, Entspannung wird durch die Farbe *grün* repräsentiert.
-Durch drehen des "Records" werden Songs abgespielt. "Zufälliges Replay" verhindert hier das ständige Wiederholen der selben Songs.
-Ziel ist das Zufällige Abspielen von Liedern und eine Untermalung der Atmosphäre durch die Farblichter.
+WIP
 
  &nbsp;
  
@@ -57,9 +51,7 @@ Ziel ist das Zufällige Abspielen von Liedern und eine Untermalung der Atmosphä
 ### **6) Reflektion**
 ---
 
-Man erstellt Playlist-Themes und ordnet diesen bestimmte Farben zu. Z.B. nostalgische Songs werden *blau*, Entspannung wird durch die Farbe *grün* repräsentiert.
-Durch drehen des "Records" werden Songs abgespielt. "Zufälliges Replay" verhindert hier das ständige Wiederholen der selben Songs.
-Ziel ist das Zufällige Abspielen von Liedern und eine Untermalung der Atmosphäre durch die Farblichter.
+WIP
 
  &nbsp;
  
