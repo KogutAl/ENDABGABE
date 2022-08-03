@@ -12,7 +12,47 @@ Schlüpfe in die Rolle des Detektiven XY und löse den Mord, der sich innerhalb 
  &nbsp;
  
 ---
-### **2) Wie funktioniert Klangfarben?**
+### **2)Komponenten?**
+---
+
+Man erstellt Playlist-Themes und ordnet diesen bestimmte Farben zu. Z.B. nostalgische Songs werden *blau*, Entspannung wird durch die Farbe *grün* repräsentiert.
+Durch drehen des "Records" werden Songs abgespielt. "Zufälliges Replay" verhindert hier das ständige Wiederholen der selben Songs.
+Ziel ist das Zufällige Abspielen von Liedern und eine Untermalung der Atmosphäre durch die Farblichter.
+
+ &nbsp;
+ 
+---
+### **2) Wie funktioniert die interaktive Story?**
+---
+
+Man erstellt Playlist-Themes und ordnet diesen bestimmte Farben zu. Z.B. nostalgische Songs werden *blau*, Entspannung wird durch die Farbe *grün* repräsentiert.
+Durch drehen des "Records" werden Songs abgespielt. "Zufälliges Replay" verhindert hier das ständige Wiederholen der selben Songs.
+Ziel ist das Zufällige Abspielen von Liedern und eine Untermalung der Atmosphäre durch die Farblichter.
+
+ &nbsp;
+ 
+---
+### **2)Schaltplan**
+---
+
+Man erstellt Playlist-Themes und ordnet diesen bestimmte Farben zu. Z.B. nostalgische Songs werden *blau*, Entspannung wird durch die Farbe *grün* repräsentiert.
+Durch drehen des "Records" werden Songs abgespielt. "Zufälliges Replay" verhindert hier das ständige Wiederholen der selben Songs.
+Ziel ist das Zufällige Abspielen von Liedern und eine Untermalung der Atmosphäre durch die Farblichter.
+
+ &nbsp;
+ 
+ ---
+### **2)Dokumentation/Ablauf**
+---
+
+Man erstellt Playlist-Themes und ordnet diesen bestimmte Farben zu. Z.B. nostalgische Songs werden *blau*, Entspannung wird durch die Farbe *grün* repräsentiert.
+Durch drehen des "Records" werden Songs abgespielt. "Zufälliges Replay" verhindert hier das ständige Wiederholen der selben Songs.
+Ziel ist das Zufällige Abspielen von Liedern und eine Untermalung der Atmosphäre durch die Farblichter.
+
+ &nbsp;
+ 
+ ---
+### **2)Reflektion**
 ---
 
 Man erstellt Playlist-Themes und ordnet diesen bestimmte Farben zu. Z.B. nostalgische Songs werden *blau*, Entspannung wird durch die Farbe *grün* repräsentiert.
@@ -27,4 +67,3 @@ Ziel ist das Zufällige Abspielen von Liedern und eine Untermalung der Atmosphä
 [Recherche_4](https://mehackit.org/en/courses/electronics_and_programming_basics/02-switch-stuff-on-and-off/03-exercise-1/)
 
  &nbsp;
- 
