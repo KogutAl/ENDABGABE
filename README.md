@@ -1,5 +1,5 @@
 # Interaktive Detektivgeschichte
-#### (*Semesterendprojekt SoSe22 von Alona Kogut*)
+#### (*Semesterendprojekt Physical Computing - SoSe22 von Alona Kogut*)
  &nbsp;
 
 ![Bild zeigt Detektiv und seine Ausrüstung](https://static.vecteezy.com/system/resources/previews/002/183/856/original/detective-accessories-in-retro-style-on-background-vector.jpg)
