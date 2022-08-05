@@ -39,11 +39,45 @@ WIP
 
  &nbsp;
  
- ---
+---
 ### **5) Dokumentation/Ablauf**
 ---
 
-WIP
+*Testlauf Nummer 1 :*
+
+---
+
+CODE
+
+#include <Arduino.h>
+
+const int buttonPin = 7;     
+const int soundPin =  6;     
+int buttonState = 0;                // Variable liest PushButton Status
+
+void setup() {
+  
+  pinMode(soundPin, OUTPUT);        // Beispiel Pin 6 (Lautsprecher) als Output   
+  pinMode(buttonPin, INPUT_PULLUP);        // Beispiel Pin 7 (switch) als INPUT
+}
+
+void step1(){                      // Narrative Schritt 1
+  digitalWrite(soundPin, HIGH); 
+}
+
+void loop() {
+
+  if (buttonState){               // liest PushButton Wert
+  buttonState = digitalRead(buttonPin);
+  }
+  if (buttonState == LOW) {       // Wird Button gedrückt, dann... 
+    step1();                      // Führe Schritt 1 durch 
+  }
+
+  else {
+    digitalWrite(soundPin, LOW);  // führt keinen Schritt durch
+  }
+}
 
  &nbsp;
  
