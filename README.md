@@ -50,7 +50,7 @@ WIP
 
 *CODE*
 
-`#include <Arduino.h>
+```js #include <Arduino.h>
 
 const int buttonPin = 7;     
 const int soundPin =  6;     
@@ -79,7 +79,7 @@ void loop() {
     digitalWrite(soundPin, LOW);  // führt keinen Schritt durch
   }
 }
-`
+```
  &nbsp;
  
  ---
