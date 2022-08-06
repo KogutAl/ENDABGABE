@@ -56,14 +56,14 @@ WIP
 ### **5) Dokumentation/Ablauf**
 ---
 
-#### **TESTLAUF Nr. 1**
+#### **TESTLAUF Nr. 1 - Einschalten LED durch switch**
 
  &nbsp;
  
 
 **Code**
 
-```js #
+```
 include <Arduino.h>
 
 const int buttonPin = 7;     
@@ -92,6 +92,41 @@ void loop() {
   else {
     digitalWrite(narrativePin, LOW);      // führt keinen Schritt durch
   }
+}
+```
+ &nbsp;
+ 
+ *ERGEBNIS*
+ Die LED schaltet sich aus durch Schließung des Stromkreises
+ 
+ &nbsp;
+ 
+ 
+ #### **TESTLAUF Nr. 2 - LED blinkt (Licht flackern)**
+
+ &nbsp;
+ 
+
+**Code**
+
+```
+#include <Arduino.h>
+
+const int blinkLedPin = 2;        
+
+void setup() {
+  pinMode(blinkLedPin, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(blinkLedPin, HIGH);
+  delay(3000);
+  digitalWrite(blinkLedPin, LOW);
+  delay (500);
+  digitalWrite(blinkLedPin, HIGH);
+  delay(2000);
+  digitalWrite(blinkLedPin, LOW);
+  delay (100);
 }
 ```
  &nbsp;
