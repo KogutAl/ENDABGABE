@@ -97,8 +97,9 @@ void loop() {
  &nbsp;
  
  *ERGEBNIS*
+ 
  &nbsp;
- Die LED schaltet sich aus durch Schließung des Stromkreises
+ Die LED schaltet sich, durch Schließung des Stromkreises, aus
  &nbsp;
  
  ![LED ist an, Münze liegt nicht auf Switch](https://github.com/KogutAl/ENDABGABE/blob/main/pic_SWITCH_1.jpg)
@@ -153,6 +154,7 @@ void loop() {
  
   
  *ERGEBNIS*
+ 
  &nbsp;
  Durch Drücken des Knopfes erfolgt eine Licht-Flacker Simulation durch Ein- und Ausschalten der LED
  &nbsp;
