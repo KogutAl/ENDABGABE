@@ -27,7 +27,18 @@ Schlüpfe in die Rolle des Detektiven XY und löse den Mord, der sich innerhalb 
 ### **3) Wie funktioniert die interaktive Story?**
 ---
 
-WIP
+####Die Effekte####
+
+Die Kurzgeschichte soll durch sowohl kleine visuelle Effekte, als auch narrative Events erzählt werden. 
+Was ich mir als interaktive Schnittstellen, entweder als simple Aktionen oder Rätsel, für den Spieler vorstellen kann, wären folgende :
+
+- Miniklavierstück durch Button drücken (Seperate Komponente)
+- Aktivierung eines Motors (Rotation) eines Objektes (Bücherregal)
+- Aktiverung eines weiteren Motors (öffnet eine geheime Klappe)
+- LED-Einschaltung durch Buttons
+- Starten narrativer Events durch Schließen eines Stromkreises
+- oder durch Unterbrechung eines Stromkreises
+
 
  &nbsp;
  
