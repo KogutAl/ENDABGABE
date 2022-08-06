@@ -156,7 +156,7 @@ void loop() {
  *ERGEBNIS*
  
  &nbsp;
- Durch Drücken des Knopfes erfolgt eine Licht-Flacker Simulation durch Ein- und Ausschalten der LED
+ Durch Drücken des Knopfes erfolgt eine "Licht-Flacker Simulation" mit Hilfe des Ein- und Ausschaltens der LED
  &nbsp;
  
  ![Steckbrett mit Knopf, LED brennt](https://github.com/KogutAl/ENDABGABE/blob/main/pic_BLINKButton.jpg)
