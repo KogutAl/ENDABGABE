@@ -175,5 +175,7 @@ WIP
 [Recherche_4](https://mehackit.org/en/courses/electronics_and_programming_basics/02-switch-stuff-on-and-off/03-exercise-1/)
 [Pressure_Switch](https://www.instructables.com/Use-a-DIY-Pressure-Plate-Switch-to-Automate-Your-H/)
 [MP3 in Code umwandeln](https://www.youtube.com/watch?v=aaqaAXlZbuc)
+[Star Wars Theme](https://www.youtube.com/watch?v=RVyLqXz-xvU)
+[Star Wars Theme-Tutorial](https://42bots.com/?s=melody)
 
  &nbsp;
