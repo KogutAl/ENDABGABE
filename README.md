@@ -102,7 +102,7 @@ void loop() {
  &nbsp;
  
  
- #### **TESTLAUF Nr. 2 - LED blinkt (Licht flackern)**
+ #### **TESTLAUF Nr. 2 - LED blinkt durch Knopfdruck (simuliert Licht flackern)**
 
  &nbsp;
  
@@ -112,21 +112,34 @@ void loop() {
 ```
 #include <Arduino.h>
 
-const int blinkLedPin = 2;        
+const int blinkLedPin = 2;                  
+const int buttonBlinkPin = 3;               
 
 void setup() {
-  pinMode(blinkLedPin, OUTPUT);
+  pinMode(blinkLedPin, OUTPUT);               // Pin 2 ist Output -> LED blinkt
+  pinMode(buttonBlinkPin, INPUT_PULLUP);      // PIN 3 ist Input -> durch Knopfdruck blinkt LED
 }
 
 void loop() {
-  digitalWrite(blinkLedPin, HIGH);
-  delay(3000);
-  digitalWrite(blinkLedPin, LOW);
-  delay (500);
-  digitalWrite(blinkLedPin, HIGH);
-  delay(2000);
-  digitalWrite(blinkLedPin, LOW);
-  delay (100);
+
+  if (digitalRead (buttonBlinkPin) == LOW ){  // wenn Knopf gedrückt ist...
+        digitalWrite(blinkLedPin, HIGH);      // geht LED an...
+        delay(3000);                          // für 3000ms...
+        digitalWrite(blinkLedPin, LOW);       // danach geht aus..
+        delay (500);                          // für 500ms...
+        digitalWrite(blinkLedPin, HIGH);      // geht wieder an usw.
+        delay(2000);
+        digitalWrite(blinkLedPin, LOW);
+        delay (100);
+        digitalWrite(blinkLedPin, HIGH);
+        delay(200);
+        digitalWrite(blinkLedPin, LOW);
+        delay (50);
+  }
+  if (digitalRead (buttonBlinkPin) == HIGH ){ // wenn Knopf nicht gedrückt ist
+        digitalWrite(blinkLedPin, LOW);       // bleibt LED aus
+  }
+
 }
 ```
  &nbsp;
