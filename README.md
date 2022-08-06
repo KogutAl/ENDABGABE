@@ -53,30 +53,30 @@ WIP
 ```js #include <Arduino.h>
 
 const int buttonPin = 7;     
-const int soundPin =  6;     
-int buttonState = 0;                // Variable liest PushButton Status
+const int narrativePin =  6;     
+int buttonState = 0;                        // Variable liest PushButton Status
 
 void setup() {
   
-  pinMode(soundPin, OUTPUT);        // Beispiel Pin 6 (Lautsprecher) als Output   
-  pinMode(buttonPin, INPUT_PULLUP);        // Beispiel Pin 7 (switch) als INPUT
+  pinMode(narrativePin, OUTPUT);           // Pin 6 ist narrativePin OUTPUT  
+  pinMode(buttonPin, INPUT_PULLUP);        // Pin 7 ist buttonPin INPUT
 }
 
-void step1(){                      // Narrative Schritt 1
-  digitalWrite(soundPin, HIGH); 
+void step1(){                              // Narrative Schritt 1
+  digitalWrite(narrativePin, HIGH); 
 }
 
 void loop() {
 
-  if (buttonState){               // liest PushButton Wert
+  if (buttonState){                        // liest PushButton Wert
   buttonState = digitalRead(buttonPin);
   }
-  if (buttonState == LOW) {       // Wird Button gedrückt, dann... 
-    step1();                      // Führe Schritt 1 durch 
+  if (buttonState == LOW) {               // Wird Button gedrückt, dann... 
+    step1();                              // Führe Schritt 1 durch 
   }
 
   else {
-    digitalWrite(soundPin, LOW);  // führt keinen Schritt durch
+    digitalWrite(narrativePin, LOW);      // führt keinen Schritt durch
   }
 }
 ```
