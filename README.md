@@ -56,10 +56,10 @@ WIP
 ### **5) Dokumentation/Ablauf**
 ---
 
+
 #### **TESTLAUF Nr. 1 - Einschalten LED durch switch**
 
- &nbsp;
- 
+&nbsp;
 
 **Code**
 
@@ -101,7 +101,8 @@ void loop() {
  
  &nbsp;
  
- 
+ ---
+
  #### **TESTLAUF Nr. 2 - LED blinkt durch Knopfdruck (simuliert Licht flackern)**
 
  &nbsp;
