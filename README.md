@@ -108,7 +108,7 @@ void loop() {
  
  ---
 
- #### **TESTLAUF Nr. 3 - Erprobung einer State Machine mit LED)**
+ #### **TESTLAUF Nr. 2 - LED blinkt durch Knopfdruck (simuliert Licht flackern)**
 
  &nbsp;
  
@@ -153,7 +153,7 @@ void loop() {
   
  ##### ERGEBNIS
  
- Wenn der Knopf gedrückt wird, leuchtet die LED auf. Sobald die Taste ein weiteres Mal gedrückt wird, geht sie wieder aus.
+ Wenn der Knopf gedrückt wird, erfolgt eine "Licht-Flacker" Simulation. Dies ist eine Abfolge von An- und Ausschalten der LED mit verschiedenen "Delay" Angaben.
  &nbsp;
  
  ![Steckbrett mit Knopf, LED brennt](https://github.com/KogutAl/ENDABGABE/blob/main/pic_BLINKButton.jpg)
@@ -162,7 +162,7 @@ void loop() {
  
   ---
 
- #### **TESTLAUF Nr. 2 - LED blinkt durch Knopfdruck (simuliert Licht flackern)**
+ #### **TESTLAUF Nr. 3 - Erprobung einer State Machine mit LED)**
 
  &nbsp;
  
