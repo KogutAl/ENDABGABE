@@ -96,9 +96,7 @@ void loop() {
 ```
  &nbsp;
  
- *ERGEBNIS*
- 
- &nbsp;
+ ##### ERGEBNIS
  Die LED schaltet sich, durch Schließung des Stromkreises, aus
  &nbsp;
  
@@ -153,11 +151,9 @@ void loop() {
  &nbsp;
  
   
- *ERGEBNIS*
+ ##### ERGEBNIS
  
- &nbsp;
  Wenn der Knopf gedrückt wird, leuchtet die LED auf. Sobald die Taste ein weiteres Mal gedrückt wird, geht sie wieder aus.
- Ein Button kann somit 2 Befehle ausführen -> LED ein- und ausschalten. Es herrscht ein Wechsel des LED Zustandes.
  &nbsp;
  
  ![Steckbrett mit Knopf, LED brennt](https://github.com/KogutAl/ENDABGABE/blob/main/pic_BLINKButton.jpg)
@@ -195,11 +191,9 @@ void loop() {
 ```
  &nbsp;
  
-  
- *ERGEBNIS*
- 
- &nbsp;
- Durch Drücken des Knopfes erfolgt eine "Licht-Flacker Simulation" mit Hilfe des Ein- und Ausschaltens der LED
+ ##### ERGEBNIS
+ Wenn der Knopf gedrückt wird, leuchtet die LED auf. Sobald die Taste ein weiteres Mal gedrückt wird, geht sie wieder aus.
+ Ein Button kann somit 2 Befehle ausführen -> LED ein- und ausschalten. Es herrscht ein Wechsel des LED Zustandes.
  &nbsp;
  
  ![Steckbrett mit Knopf, LED brennt](https://github.com/KogutAl/ENDABGABE/blob/main/pic_BLINKButton.jpg)
