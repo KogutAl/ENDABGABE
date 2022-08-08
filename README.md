@@ -110,6 +110,61 @@ void loop() {
  
  ---
 
+ #### **TESTLAUF Nr. 3 - Erprobung einer State Machine mit LED)**
+
+ &nbsp;
+ 
+
+**Code**
+
+```
+#include <Arduino.h>
+
+const int blinkLedPin = 2;                  
+const int buttonBlinkPin = 3;               
+
+void setup() {
+  pinMode(blinkLedPin, OUTPUT);               // Pin 2 ist Output -> LED blinkt
+  pinMode(buttonBlinkPin, INPUT_PULLUP);      // PIN 3 ist Input -> durch Knopfdruck blinkt LED
+}
+
+void loop() {
+
+  if (digitalRead (buttonBlinkPin) == LOW ){  // wenn Knopf gedrückt ist...
+        digitalWrite(blinkLedPin, HIGH);      // geht LED an...
+        delay(3000);                          // für 3000ms...
+        digitalWrite(blinkLedPin, LOW);       // danach geht aus..
+        delay (500);                          // für 500ms...
+        digitalWrite(blinkLedPin, HIGH);      // geht wieder an usw.
+        delay(2000);
+        digitalWrite(blinkLedPin, LOW);
+        delay (100);
+        digitalWrite(blinkLedPin, HIGH);
+        delay(200);
+        digitalWrite(blinkLedPin, LOW);
+        delay (50);
+  }
+  if (digitalRead (buttonBlinkPin) == HIGH ){ // wenn Knopf nicht gedrückt ist
+        digitalWrite(blinkLedPin, LOW);       // bleibt LED aus
+  }
+
+}
+```
+ &nbsp;
+ 
+  
+ *ERGEBNIS*
+ 
+ &nbsp;
+ Durch Drücken des Knopfes erfolgt eine "Licht-Flacker Simulation" mit Hilfe des Ein- und Ausschaltens der LED
+ &nbsp;
+ 
+ ![Steckbrett mit Knopf, LED brennt](https://github.com/KogutAl/ENDABGABE/blob/main/pic_BLINKButton.jpg)
+ 
+ &nbsp
+ 
+  ---
+
  #### **TESTLAUF Nr. 2 - LED blinkt durch Knopfdruck (simuliert Licht flackern)**
 
  &nbsp;
@@ -161,6 +216,7 @@ void loop() {
  
  ![Steckbrett mit Knopf, LED brennt](https://github.com/KogutAl/ENDABGABE/blob/main/pic_BLINKButton.jpg)
  
+ 
  ---
 ### **6) Reflektion**
 ---
@@ -177,5 +233,7 @@ WIP
 [MP3 in Code umwandeln](https://www.youtube.com/watch?v=aaqaAXlZbuc)
 [Star Wars Theme](https://www.youtube.com/watch?v=RVyLqXz-xvU)
 [Star Wars Theme-Tutorial](https://42bots.com/?s=melody)
+[State Machine](https://www.mikrocontroller.net/articles/Statemachine)
+[State Machine - Ampelbeispiel](https://www.youtube.com/watch?v=AFUAkNXTqfo)
 
  &nbsp;
