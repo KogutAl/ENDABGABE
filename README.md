@@ -197,7 +197,7 @@ void loop() {
  &nbsp;
  
  ![Steckbrett mit Knopf und LED, LED ist aus](https://github.com/KogutAl/ENDABGABE/blob/main/p_StateMachineButton_1.jpg)
- ![Steckbrett mit Knopf und LED, LED ist an, nachdem Knopf gedrückt wird](https://github.com/KogutAl/ENDABGABE/blob/main/p_StateMachineButton_1.jpg)
+ ![Steckbrett mit Knopf und LED, LED ist an, nachdem Knopf gedrückt wird](https://github.com/KogutAl/ENDABGABE/blob/main/p_StateMachineButton_2.jpg)
  
  ---
 ### **6) Reflektion**
