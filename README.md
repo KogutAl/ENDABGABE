@@ -218,5 +218,6 @@ WIP
 [Star Wars Theme-Tutorial](https://42bots.com/?s=melody)
 [State Machine](https://www.mikrocontroller.net/articles/Statemachine)
 [State Machine - Ampelbeispiel](https://www.youtube.com/watch?v=AFUAkNXTqfo)
+[Textausgabe](https://docs.arduino.cc/built-in-examples/usb/KeyboardMessage)
 
  &nbsp;
