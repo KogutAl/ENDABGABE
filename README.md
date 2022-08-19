@@ -308,7 +308,6 @@ void loop() {
 
 **Code**
 
-[Die Quelle](https://docs.arduino.cc/built-in-examples/usb/KeyboardMessage)
 
 ```
 /*
