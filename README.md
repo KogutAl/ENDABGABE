@@ -348,19 +348,32 @@ WIP
 
  &nbsp;
  
-[Arduino Code Referenzen und Erklärungen](https://arduinogetstarted.com/de/reference/digitalread) 
+[Arduino Code Referenzen und Erklärungen](https://arduinogetstarted.com/de/reference/digitalread)
+ &nbsp;
 [Recherche_1](https://www.youtube.com/watch?v=jco-uU5ZgEU)
+ &nbsp;
 [Recherche_2](https://www.arduinoplatform.com/subscription-projects/create-a-touch-button-with-copper-aluminum-foil/)
+ &nbsp;
 [Recherche_3](https://www.kobakant.at/DIY/?p=8906)
+ &nbsp;
 [Recherche_4](https://mehackit.org/en/courses/electronics_and_programming_basics/02-switch-stuff-on-and-off/03-exercise-1/)
+ &nbsp;
 [Pressure_Switch](https://www.instructables.com/Use-a-DIY-Pressure-Plate-Switch-to-Automate-Your-H/)
+ &nbsp;
 [MP3 in Code umwandeln](https://www.youtube.com/watch?v=aaqaAXlZbuc)
+ &nbsp;
 [Star Wars Theme](https://www.youtube.com/watch?v=RVyLqXz-xvU)
+ &nbsp;
 [Star Wars Theme-Tutorial](https://42bots.com/?s=melody)
+ &nbsp;
 [State Machine](https://www.mikrocontroller.net/articles/Statemachine)
+ &nbsp;
 [State Machine - Ampelbeispiel](https://www.youtube.com/watch?v=AFUAkNXTqfo)
+ &nbsp;
 [Textausgabe](https://docs.arduino.cc/built-in-examples/usb/KeyboardMessage)
+ &nbsp;
 [SerialPrintln_Video](https://www.youtube.com/watch?v=RUnUaE_hoHs)
+ &nbsp;
 [SerialPrint](https://www.arduino.cc/reference/de/language/functions/communication/serial/println/)
 
  &nbsp;
