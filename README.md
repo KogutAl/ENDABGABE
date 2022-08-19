@@ -230,7 +230,7 @@ HIER KOMMEN BLDER
  &nbsp;
  
 
-**Code (nicht meiner - Referenzmaterial**
+**Code (nicht meiner - Referenzmaterial)** -> verworfen
 
 [Die Quelle](https://docs.arduino.cc/built-in-examples/usb/KeyboardMessage)
 
