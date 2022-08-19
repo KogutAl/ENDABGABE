@@ -338,6 +338,47 @@ void loop() {
  ![Steckbrett und Laptop. Ausgabe des Serial Monitors besagt "Knopf wird gedrückt"](https://github.com/KogutAl/ENDABGABE/blob/main/pic_serialprint.jpg)
  
  &nbsp;
+ 
+ 
+  ---
+ 
+  #### **TESTLAUF Nr. 7 - Verbindung aller Komponenten auf Steckbrett**
+
+ &nbsp;
+ 
+
+**Code**
+
+
+```
+/*
+  #include <Arduino.h>
+
+int button = 6;
+
+void setup() {
+  pinMode (button ,INPUT_PULLUP);                   // Pin 6 ist Button Input
+  Serial.begin(9600);                               // BAUD Rate, gibt vor in welcher Geschwindigkeit Daten übermittelt werden
+  Serial.println("Setup...");
+}
+
+void loop() {
+  if (digitalRead(button) == LOW){                  // wenn Knopf gedrückt wird
+    Serial.println("Knopf wird gedrückt");          // wird Text in Serial Monitor ausgegeben
+    delay (4000);                                   // alle 4000ms wird Text ausgegeben
+  }
+
+}
+```
+ &nbsp;
+ 
+ ##### ERGEBNIS
+ Nun, da ich weiß, dass meine ersten drei Events seperat funktionieren, war mein nächster Schritt, alle Komponenten auf einem Steckbrett zu vereinen. Somit soll das Spielbrett/der Spielraum simuliert werden und festgestellt werden, ob noch alles so funktioniert wie es soll.
+ Beim erstenne der seperaten Codes habe ich darauf geachtet, keine Pins doppelt zu belegen, sodass diese sich beim Zusammenfügen der Codes nicht gegenseitig im Wege stehen. An dieser Stelle läuft alles noch gut, aber stehen im Code noch keinem Bezug zueinander.
+ 
+ ![Steckbrett und Laptop. Ausgabe des Serial Monitors besagt "Knopf wird gedrückt"](https://github.com/KogutAl/ENDABGABE/blob/main/pic_serialprint.jpg)
+ 
+ &nbsp;
 
  
  ---
