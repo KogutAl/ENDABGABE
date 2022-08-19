@@ -428,6 +428,107 @@ void loop() {
  
  &nbsp;
 
+  ---
+ 
+  #### **TESTLAUF Nr. 8 - PROTOTYP: Einarbeitung narrativer Events**
+
+ &nbsp;
+ 
+
+**Code**
+
+
+```
+/*
+#include <Arduino.h>
+
+int button = 6;
+
+const int blinkLedPin = 2;                  
+const int buttonBlinkPin = 3;
+
+int LedPin = 9;
+int buttonLedPin = 10;
+
+
+void setup() {
+  pinMode (button ,INPUT_PULLUP);                                               // Pin 6 ist Button Input
+  Serial.begin(9600);                                                           // BAUD Rate; Informationsweitergabe Rate
+  Serial.println("        Der Detektiv muss den Raum betreten.");
+  delay (2500); 
+  Serial.println("        Begebe dich zum Eingang des Zimmers um das Spiel zu starten.");
+
+  // --------------- EVENT 1: Licht flackert ------------------
+  pinMode(blinkLedPin, OUTPUT);                                                // Pin 2 ist Output -> LED blinkt
+  pinMode(buttonBlinkPin, INPUT_PULLUP);                                       // PIN 3 ist Input -> durch Knopfdruck blinkt LED
+
+  // --------------- EVENT 2: Lampe einschalten ------------------
+  pinMode(LedPin, OUTPUT);                                                     // Pin 9 ist OUTPUT, LED leuchtet
+  pinMode(buttonLedPin, INPUT_PULLUP);                                         // Pin 10 ist INPUT, Button
+
+  digitalWrite (LedPin, LOW);                                                  // Ausgangszustand LED
+
+}
+
+void loop() {
+  if (digitalRead(button) == LOW){                                             // wenn Knopf gedrückt wird
+    Serial.println("      > In dieser Dunkelheit kann ich nicht arbeiten.");   // wird Text in Serial Monitor ausgegeben
+    delay (3000);   
+    Serial.println("      > Ich brauche Licht.");  
+  };
+
+  // --------------- EVENT 1: Licht flackert ------------------
+  
+  if (digitalRead (buttonBlinkPin) == LOW ){                                   // wenn Knopf gedrückt ist...
+        digitalWrite(blinkLedPin, HIGH);                                       // geht LED an...
+        delay(3000);                                                           // für 3000ms...
+        digitalWrite(blinkLedPin, LOW);                                        // danach geht aus..
+        delay (500);                                                           // für 500ms...
+        digitalWrite(blinkLedPin, HIGH);                                       // geht wieder an usw.
+        delay(2000);
+        digitalWrite(blinkLedPin, LOW);
+        delay (100);
+        digitalWrite(blinkLedPin, HIGH);
+        delay(200);
+        digitalWrite(blinkLedPin, LOW);
+        delay (150);
+
+        Serial.println("      > Fantastisch. ");  
+        delay (2500);
+        Serial.println("      > Diese Lampe taugt schon mal nichts.");  
+        delay (2500); 
+        Serial.println("      > ..."); 
+        delay (3000); 
+        Serial.println("      > Hier gibt es bestimmt eine weitere Lichquelle. "); 
+
+  };
+  if (digitalRead (buttonBlinkPin) == HIGH ){                                   // wenn Knopf nicht gedrückt ist
+        digitalWrite(blinkLedPin, LOW);                                         // bleibt LED aus
+  };
+
+
+  // --------------- EVENT 2: Lampe einschalten ------------------
+
+   if (digitalRead(buttonLedPin) == LOW){                                       // wenn Button gedrückt wird...
+    Serial.println("      > Na bitte. ");  
+    delay (2000);
+    Serial.println("      > Diese funktioniert. ");  
+    delay (2500);
+    Serial.println("      > Dann mal ran an die Arbeit");  
+    delay (2500);
+    digitalWrite(LedPin, !digitalRead(LedPin));                                 // starte Output (LED leuchtet) und lese Zustand der LED (an oder aus)
+  };
+
+}
+```
+ &nbsp;
+ 
+ ##### ERGEBNIS
+ Der Text wird wie gewünscht mit den Drücken der Knöpfe oder der Abfolge von Befehlen (Lichtflacker-Event) wiedergegeben.
+ 
+ ![Steckbrett und Laptop. Ausgabe des Serial Monitors besagt "Knopf wird gedrückt"](https://github.com/KogutAl/ENDABGABE/blob/main/pic_serialprint.jpg)
+ 
+ &nbsp;
  
  ---
 ### **6) Reflektion**
