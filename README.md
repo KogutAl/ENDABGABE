@@ -291,6 +291,106 @@ void loop() {
 ```
  &nbsp;
  
+  ##### ERGEBNIS
+ Wenn der Knopf gedrückt wird, leuchtet die LED auf. Sobald die Taste ein weiteres Mal gedrückt wird, geht sie wieder aus.
+ Ein Button kann somit 2 Befehle ausführen -> LED ein- und ausschalten. Es herrscht ein Wechsel des LED Zustandes.
+ &nbsp;
+ 
+ ![Steckbrett mit Knopf und LED, LED ist aus](https://github.com/KogutAl/ENDABGABE/blob/main/p_StateMachineButton_1.jpg)
+ ![Steckbrett mit Knopf und LED, LED ist an, nachdem Knopf gedrückt wird](https://github.com/KogutAl/ENDABGABE/blob/main/p_StateMachineButton_2.jpg)
+ 
+  &nbsp;
+ 
+  ---
+ 
+  #### **TESTLAUF Nr. 4 - Ausarbeitung der State-Machine**
+
+ &nbsp;
+ 
+
+**Code**
+
+```
+Here comes the code
+```
+ &nbsp;
+ 
+ ##### ERGEBNIS
+WIP
+ &nbsp;
+
+HIER KOMMEN BLDER
+ 
+  &nbsp;
+ 
+  ---
+ 
+  #### **TESTLAUF Nr. 6 - Textausgabe**
+
+ &nbsp;
+ 
+
+**Code**
+
+[Die Quelle](https://docs.arduino.cc/built-in-examples/usb/KeyboardMessage)
+
+```
+/*
+  Keyboard Message test
+
+  For the Arduino Leonardo and Micro.
+
+  Sends a text string when a button is pressed.
+
+  The circuit:
+  - pushbutton attached from pin 4 to +5V
+  - 10 kilohm resistor attached from pin 4 to ground
+
+  created 24 Oct 2011
+  modified 27 Mar 2012
+  by Tom Igoe
+  modified 11 Nov 2013
+  by Scott Fitzgerald
+
+  This example code is in the public domain.
+
+  https://www.arduino.cc/en/Tutorial/BuiltInExamples/KeyboardMessage
+*/
+
+#include "Keyboard.h"
+
+const int buttonPin = 4;          // input pin for pushbutton
+int previousButtonState = HIGH;   // for checking the state of a pushButton
+int counter = 0;                  // button push counter
+
+void setup() {
+  // make the pushButton pin an input:
+  pinMode(buttonPin, INPUT);
+  // initialize control over the keyboard:
+  Keyboard.begin();
+}
+
+void loop() {
+  // read the pushbutton:
+  int buttonState = digitalRead(buttonPin);
+  // if the button state has changed,
+  if ((buttonState != previousButtonState)
+      // and it's currently pressed:
+      && (buttonState == HIGH)) {
+    // increment the button counter
+    counter++;
+    // type out a message
+    Keyboard.print("You pressed the button ");
+    Keyboard.print(counter);
+    Keyboard.println(" times.");
+  }
+  // save the current button state for comparison next time:
+  previousButtonState = buttonState;
+}
+
+```
+ &nbsp;
+ 
  ##### ERGEBNIS
 WIP
  
@@ -317,5 +417,7 @@ WIP
 [State Machine](https://www.mikrocontroller.net/articles/Statemachine)
 [State Machine - Ampelbeispiel](https://www.youtube.com/watch?v=AFUAkNXTqfo)
 [Textausgabe](https://docs.arduino.cc/built-in-examples/usb/KeyboardMessage)
+[SerialPrintln_Video](https://www.youtube.com/watch?v=RUnUaE_hoHs)
+[SerialPrint](https://www.arduino.cc/reference/de/language/functions/communication/serial/println/)
 
  &nbsp;
