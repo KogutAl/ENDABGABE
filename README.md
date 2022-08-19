@@ -392,7 +392,10 @@ void loop() {
  &nbsp;
  
  ##### ERGEBNIS
-WIP
+ Wurde der Knopf gedrückt, erscheint der Text im Serial Monitor. Wird er gedrückt gehalten, wird der Text alle 4 Sekunden ausgegeben.
+ &nbsp;
+ 
+ ![Steckbrett und Laptop. Ausgabe des Serial Monitors besagt "Knopf wird gedrückt"](https://github.com/KogutAl/ENDABGABE/blob/main/pic_serialprint.jpg)
  
  &nbsp;
 
