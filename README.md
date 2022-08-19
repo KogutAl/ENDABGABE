@@ -364,26 +364,26 @@ int buttonLedPin = 10;
 
 
 void setup() {
-  pinMode (button ,INPUT_PULLUP);               // Pin 6 ist Button Input
-  Serial.begin(9600);                           // BAUD Rate; Wiedergaberate
+  pinMode (button ,INPUT_PULLUP);                                               // Pin 6 ist Button Input
+  Serial.begin(9600);                                                           // BAUD Rate; Informationsweitergabe Rate
   Serial.println("        Der Detektiv muss den Raum betreten.");
   delay (3000); 
   Serial.println("        Begebe dich zum Eingang des Zimmers um das Spiel zu starten.");
 
   // --------------- EVENT 1: Licht flackert ------------------
-  pinMode(blinkLedPin, OUTPUT);               // Pin 2 ist Output -> LED blinkt
-  pinMode(buttonBlinkPin, INPUT_PULLUP);      // PIN 3 ist Input -> durch Knopfdruck blinkt LED
+  pinMode(blinkLedPin, OUTPUT);                                                // Pin 2 ist Output -> LED blinkt
+  pinMode(buttonBlinkPin, INPUT_PULLUP);                                       // PIN 3 ist Input -> durch Knopfdruck blinkt LED
 
   // --------------- EVENT 2: Lampe einschalten ------------------
-  pinMode(LedPin, OUTPUT);                    // Pin 9 ist OUTPUT, LED leuchtet
-  pinMode(buttonLedPin, INPUT_PULLUP);        // Pin 10 ist INPUT, Button
+  pinMode(LedPin, OUTPUT);                                                     // Pin 9 ist OUTPUT, LED leuchtet
+  pinMode(buttonLedPin, INPUT_PULLUP);                                         // Pin 10 ist INPUT, Button
 
-  digitalWrite (LedPin, LOW);                 // Ausgangszustand LED
+  digitalWrite (LedPin, LOW);                                                  // Ausgangszustand LED
 
 }
 
 void loop() {
-  if (digitalRead(button) == LOW){                                              // wenn Knopf gedrückt wird
+  if (digitalRead(button) == LOW){                                             // wenn Knopf gedrückt wird
     Serial.println("      > In dieser Dunkelheit kann ich nicht arbeiten.");   // wird Text in Serial Monitor ausgegeben
     delay (3000);   
     Serial.println("      > Ich brauche Licht.");  
@@ -391,12 +391,12 @@ void loop() {
 
   // --------------- EVENT 1: Licht flackert ------------------
   
-  if (digitalRead (buttonBlinkPin) == LOW ){  // wenn Knopf gedrückt ist...
-        digitalWrite(blinkLedPin, HIGH);      // geht LED an...
-        delay(3000);                          // für 3000ms...
-        digitalWrite(blinkLedPin, LOW);       // danach geht aus..
-        delay (500);                          // für 500ms...
-        digitalWrite(blinkLedPin, HIGH);      // geht wieder an usw.
+  if (digitalRead (buttonBlinkPin) == LOW ){                                   // wenn Knopf gedrückt ist...
+        digitalWrite(blinkLedPin, HIGH);                                       // geht LED an...
+        delay(3000);                                                           // für 3000ms...
+        digitalWrite(blinkLedPin, LOW);                                        // danach geht aus..
+        delay (500);                                                           // für 500ms...
+        digitalWrite(blinkLedPin, HIGH);                                       // geht wieder an usw.
         delay(2000);
         digitalWrite(blinkLedPin, LOW);
         delay (100);
@@ -405,15 +405,15 @@ void loop() {
         digitalWrite(blinkLedPin, LOW);
         delay (50);
   };
-  if (digitalRead (buttonBlinkPin) == HIGH ){   // wenn Knopf nicht gedrückt ist
-        digitalWrite(blinkLedPin, LOW);         // bleibt LED aus
+  if (digitalRead (buttonBlinkPin) == HIGH ){                                   // wenn Knopf nicht gedrückt ist
+        digitalWrite(blinkLedPin, LOW);                                         // bleibt LED aus
   };
 
 
   // --------------- EVENT 2: Lampe einschalten ------------------
 
-   if (digitalRead(buttonLedPin) == LOW){         // wenn Button gedrückt wird...
-    digitalWrite(LedPin, !digitalRead(LedPin));   // starte Output (LED leuchtet) und lese Zustand der LED (an oder aus)
+   if (digitalRead(buttonLedPin) == LOW){                                       // wenn Button gedrückt wird...
+    digitalWrite(LedPin, !digitalRead(LedPin));                                 // starte Output (LED leuchtet) und lese Zustand der LED (an oder aus)
   };
 
 }
