@@ -225,7 +225,7 @@ HIER KOMMEN BLDER
  
   ---
  
-  #### **TESTLAUF Nr. 5 - Textausgabe durch Button Push**
+  #### **TESTLAUF Nr. 5 - Ziel war: Textausgabe durch Button Push**
 
  &nbsp;
  
@@ -292,8 +292,9 @@ void loop() {
  &nbsp;
  
   ##### ERGEBNIS
-  Der Code hat nicht das gemacht was ich mir erhofft hatte. Dies lag einfach daran, dass dieser nicht die "simple" Textausgabe über den Serial Monitor ermöglicht,    
- sondern den Input von Text. Sprich: Eine Art Keyboard Simulation.
+  Der Code hat nicht das gemacht was ich mir erhofft hatte.
+  Dies lag einfach daran, dass dieser nicht die "simple" Textausgabe über den Serial Monitor ermöglicht, sondern den Input von Text.
+  Sprich: Eine Art Keyboard Simulation.
   
  &nbsp;
  
