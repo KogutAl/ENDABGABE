@@ -350,9 +350,9 @@ WIP
  
 [Arduino Code Referenzen und Erklärungen](https://arduinogetstarted.com/de/reference/digitalread)
  <br>
-[Recherche_1](https://www.youtube.com/watch?v=jco-uU5ZgEU)
+[Kapazitiver Sensor](https://www.youtube.com/watch?v=jco-uU5ZgEU)
  <br>
-[Recherche_2](https://www.arduinoplatform.com/subscription-projects/create-a-touch-button-with-copper-aluminum-foil/)
+[Kupfer Switch](https://www.arduinoplatform.com/subscription-projects/create-a-touch-button-with-copper-aluminum-foil/)
  <br>
 [Recherche_3](https://www.kobakant.at/DIY/?p=8906)
  <br>
