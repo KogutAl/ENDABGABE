@@ -16,10 +16,11 @@ Schlüpfe in die Rolle des Detektiven XY und löse den Mord, der sich innerhalb 
 ---
 
 - Arduino
-- Pappboard
+- Steckboard
 - Kupferband/Aluminiumband
 - Pins/Stecknadeln
-- Draht
+- LEDs
+- Laptop (zur Ausgabe narrativen Textes)
 
  &nbsp;
  
@@ -41,6 +42,17 @@ Was ich mir als interaktive Schnittstellen, entweder als simple Aktionen oder R�
 - Starten narrativer Events durch Schließen eines Stromkreises
 - oder durch Unterbrechung eines Stromkreises
 
+ &nbsp;
+ 
+ Dies sind natürlich die Nice To Have-Komponenten, die in einem final ausgearbeiteten Projekt schön wören. Als Physical Computing Anfängerin habe ich folgende Must  
+Haves Festgelegt:
+ 
+  &nbsp;
+  
+  - kleine visuelle Effekte durch LEDs
+  - Einbauen eines Swicthes mit Kupferpapier
+  - simple Knopfsteuerung
+  - narrative Ausgabe über Serial Monitor
 
  &nbsp;
  
@@ -203,29 +215,7 @@ void loop() {
  
   ---
  
-  #### **TESTLAUF Nr. 4 - Ausarbeitung der State-Machine**
-
- &nbsp;
- 
-
-**Code**
-
-```
-Here comes the code
-```
- &nbsp;
- 
- ##### ERGEBNIS
-WIP
- &nbsp;
-
-HIER KOMMEN BLDER
- 
-  &nbsp;
- 
-  ---
- 
-  #### **TESTLAUF Nr. 5 - Ziel war: Textausgabe durch Button Push**
+  #### **TESTLAUF Nr. 4 - Ziel war: Textausgabe durch Button Push**
 
  &nbsp;
  
@@ -301,7 +291,7 @@ void loop() {
  
   ---
  
-  #### **TESTLAUF Nr. 6 - Textausgabe**
+  #### **TESTLAUF Nr. 5 - Textausgabe**
 
  &nbsp;
  
@@ -342,7 +332,7 @@ void loop() {
  
   ---
  
-  #### **TESTLAUF Nr. 7 - Verbindung aller Komponenten - Erster PROTOYP**
+  #### **TESTLAUF Nr. 6 - Verbindung aller Komponenten - Erster PROTOYP**
 
  &nbsp;
  
@@ -430,7 +420,7 @@ void loop() {
 
   ---
  
-  #### **TESTLAUF Nr. 8 - PROTOTYP: Einarbeitung narrativer Events**
+  #### **FINALE ABGABE DES PROTOTYPS**
 
  &nbsp;
  
@@ -524,7 +514,7 @@ void loop() {
  &nbsp;
  
  ##### ERGEBNIS
- Der Text wird wie gewünscht mit den Drücken der Knöpfe oder der Abfolge von Befehlen (Lichtflacker-Event) wiedergegeben.
+ Der Text wird wie gewünscht mit den Drücken der Knöpfe oder der Abfolge von Befehlen (Lichtflacker-Event) wiedergegeben. 
  
  ![Steckbrett und Laptop. Ausgabe des Serial Monitors besagt "Knopf wird gedrückt"](https://github.com/KogutAl/ENDABGABE/blob/main/pic_serialprint.jpg)
  
