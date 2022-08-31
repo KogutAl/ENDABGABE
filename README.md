@@ -56,7 +56,7 @@ Was ich mir als interaktive Schnittstellen, entweder als simple Aktionen oder R�
  &nbsp;
  
 ---
-### **4) Schaltplan**
+### **4) Schaltplan der Endabgabe**
 ---
 
 WIP
@@ -410,8 +410,8 @@ void loop() {
  &nbsp;
  
  ##### ERGEBNIS
- Nun, da ich weiß, dass meine ersten drei Events seperat funktionieren, war mein nächster Schritt, alle Komponenten auf einem Steckbrett zu vereinen. Somit soll das Spielbrett/der Spielraum simuliert werden und festgestellt werden, ob noch alles so funktioniert wie es soll.
- Beim erstenne der seperaten Codes habe ich darauf geachtet, keine Pins doppelt zu belegen, sodass diese sich beim Zusammenfügen der Codes nicht gegenseitig im Wege stehen. An dieser Stelle läuft alles noch gut, aber stehen im Code noch keinem Bezug zueinander.
+  Der Text wird wie gewünscht mit den Drücken der Knöpfe oder der Abfolge von Befehlen (Lichtflacker-Event) wiedergegeben. 
+
  
  ![Steckbrett mit 3 Buttons und 2 LEDs"](https://github.com/KogutAl/ENDABGABE/blob/main/pic_1_Prototyp.jpg)
  
@@ -514,7 +514,8 @@ void loop() {
  &nbsp;
  
  ##### ERGEBNIS
- Der Text wird wie gewünscht mit den Drücken der Knöpfe oder der Abfolge von Befehlen (Lichtflacker-Event) wiedergegeben. 
+  Nun, da ich weiß, dass meine ersten drei Events seperat funktionieren, war mein nächster Schritt, alle Komponenten auf einem Steckbrett zu vereinen. Somit soll das Spielbrett/der Spielraum simuliert werden und festgestellt werden, ob noch alles so funktioniert wie es soll.
+ Beim erstenne der seperaten Codes habe ich darauf geachtet, keine Pins doppelt zu belegen, sodass diese sich beim Zusammenfügen der Codes nicht gegenseitig im Wege stehen. An dieser Stelle läuft alles noch gut, aber stehen im Code noch keinem Bezug zueinander.
  
  ![Steckbrett und Laptop. Ausgabe des Serial Monitors besagt "Knopf wird gedrückt"](https://github.com/KogutAl/ENDABGABE/blob/main/pic_Final.jpg)
  
@@ -524,7 +525,31 @@ void loop() {
 ### **6) Reflektion**
 ---
 
-WIP
+&nbsp;
+ 
+ ##### Was ist gut gelaufen?
+ 
+ Nachdem ich festgelegt habe, welche Effekte und Interaktionen innerhalb des Detektivspiels vorhanden sein sollten, konnte ich mich zur Recherche begeben und versuchen diese nachzustellen. Hierbei habe ich jeden Effekt einzeln betrachtet und die Komponenten erst einmal separiert von den anderen auf dem Steckbrett zusammengeschlossen. So liefen der Testlauf der Einschaltung einer LEDs anhand eines Knopfdruckes oder die Ausgabe eines Textes auf der Steuerkonsole, unabhängig voneinander.
+ Damit konnte ich feststellen, ob diese einzelnen Events so funktionieren wie ich es mir vorgestellt habe, bevor ich alle gemeinsam in die Prototyp-Schaltung stecke und Schwierigkeiten habe, potenzielle Fehlerquellen auszumachen. 
+ Mit dieser Vorgehensweise war ich sehr zufrieden, da ich diese Testläufe zwar immer wieder aufs neue ein- und nochmal ausstecken musste, um mit dem nächsten Test weiterzumachen, jedoch bei dem Endprodukt deutlich weniger Probleme hatte und ich für jede Komponente und Eventschaltkreis genau wusste, was ich dort mache.
+ Bei weiteren Physical Computing Projekten, würde ich diese Vorgehensweise zukünftig bevorzugen.
+ 
+ &nbsp;
+ 
+ ##### Was besitzt Verbesserungspotenzial?
+ 
+ Das Zusammenstecken und die Generierung des Codes haben eine Menge Spaß gemacht, doch da ich blutige Anfängerin bin, waren dies alle die Produkte sehr zeitaufwendigen Recherchen. Bei den Recherchen habe ich für mich persönlich eine große Problemquelle ausmachen können, da ich mich in diesen regelrecht verloren habe. Was beispielsweise mit der Idee einer simplen einzelnen Tonausgabe begann, ist innerhalb meiner Recherche zu der durchaus komplexeren Ausgabe eines StarWars Themes geworden, das auch noch interaktiv sein sollte. Dies überstieg meinen Wissenstand und bisherigen Erfahrungen deutlich und doch, wollte ich es möglich machen, was mit der weiteren Suche und dem (nicht erfolgreichen) Schreiben des Codes resultierte, nur um dieses Konzept nach stundenlangem Probieren, letztendlich doch zu verwerfen.
+ Dies geschah leider in regelrechten Abständen, bei denen ich mir super coole Effekte ausgesucht habe, die ich leider noch nicht umsetzen konnte und Zeit daran verschwendet habe.
+ Das Prozedere war natürlich äußerst frustrierend und zukünftig muss ich lernen meine Ziele niedrigschweilliger festzulegen und erst mit dem Erreichen dieser, die Möglichkeit von iterativen Verbesserungen in Betracht zu ziehen.
+ Aufgrund dieses immensen Recherchen- und (Scrap)Code-Schreibung, musste ich letztendlich ebenso, die visuelle Anpassung des Prototypen, wie beispielsweise die Detektivspielfigur, das Spielbrett und Objekte verwerfen.
+ 
+ 
+  &nbsp;
+ 
+ ##### Was wird aus dem Projekt?
+ 
+ Nach wie vor bin ich überzeugt davon, dass das interaktive Detektivspiel ein spaßiges Konzept innerhalb von Mensch-Computer-Interaktionen, sein kann. Mein Wissensstand ist noch lange nicht auf dem Niveau der Umseztung, wie ich es mir visioniert habe. Dennoch möchte ich die Idee nicht verwerfen und mein Glück im nächsten Semester, mit der weiteren Ausarbeitung dieses Projektes versuchen. Dies wird warhscheinlich immernoch nicht zu meinem Traumresultat führen, doch besser kann es sicherlich werden.
+ 
 
  &nbsp;
  
