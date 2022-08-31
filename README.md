@@ -59,7 +59,10 @@ Was ich mir als interaktive Schnittstellen, entweder als simple Aktionen oder R�
 ### **4) Schaltplan der Endabgabe**
 ---
 
-WIP
+Mit dem Konstruieren von Schaltplänen konnte ich mich dieses Sesmester nicht so ganz anfreunden. Dennoch erscheint mir dieser Versucht recht logisch (auch wenn es nicht so komplex aussieht, wie die Beispiele, die man sonst im Internet auffindet). 
+Dies ist der Stromkreis für die Finale Endabgabe, die am Ende der Dokumentation, nach den Tesläufen zu finden ist.
+
+ ![Schaltplan](https://github.com/KogutAl/ENDABGABE/blob/main/Schaltplan.jpg)
 
  &nbsp;
  
