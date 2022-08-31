@@ -564,7 +564,7 @@ void loop() {
  <br>
 [Kupfer Switch](https://www.arduinoplatform.com/subscription-projects/create-a-touch-button-with-copper-aluminum-foil/)
  <br>
-[Recherche_3](https://www.kobakant.at/DIY/?p=8906)
+[Kontakt Switch](https://www.kobakant.at/DIY/?p=8906)
  <br>
 [Recherche_4](https://mehackit.org/en/courses/electronics_and_programming_basics/02-switch-stuff-on-and-off/03-exercise-1/)
  <br>
