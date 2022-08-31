@@ -44,15 +44,14 @@ Was ich mir als interaktive Schnittstellen, entweder als simple Aktionen oder R�
 
  &nbsp;
  
- Dies sind natürlich die Nice To Have-Komponenten, die in einem final ausgearbeiteten Projekt schön wören. Als Physical Computing Anfängerin habe ich folgende Must  
-Haves Festgelegt:
+ Dies sind natürlich die "Nice To Have"-Komponenten, die in einem final ausgearbeiteten Projekt schön wären. Als Physical Computing Anfängerin habe ich folgende "Must Haves" Festgelegt:
  
   &nbsp;
   
   - kleine visuelle Effekte durch LEDs
   - Einbauen eines Swicthes mit Kupferpapier
   - simple Knopfsteuerung
-  - narrative Ausgabe über Serial Monitor
+  - narrative Ausgabe über den Serial Monitor
 
  &nbsp;
  
@@ -414,7 +413,7 @@ void loop() {
  Nun, da ich weiß, dass meine ersten drei Events seperat funktionieren, war mein nächster Schritt, alle Komponenten auf einem Steckbrett zu vereinen. Somit soll das Spielbrett/der Spielraum simuliert werden und festgestellt werden, ob noch alles so funktioniert wie es soll.
  Beim erstenne der seperaten Codes habe ich darauf geachtet, keine Pins doppelt zu belegen, sodass diese sich beim Zusammenfügen der Codes nicht gegenseitig im Wege stehen. An dieser Stelle läuft alles noch gut, aber stehen im Code noch keinem Bezug zueinander.
  
- ![Steckbrett mit 3 Buttons und 2 LEDs"](https://github.com/KogutAl/ENDABGABE/blob/main/pic_1_Prototyp.jpg)
+ ![Steckbrett mit 3 Buttons und 2 LEDs"](https://github.com/KogutAl/ENDABGABE/blob/main/pic_Final.jpg)
  
  &nbsp;
 
