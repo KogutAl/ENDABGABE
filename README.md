@@ -585,5 +585,7 @@ void loop() {
 [SerialPrintln_Video](https://www.youtube.com/watch?v=RUnUaE_hoHs)
  <br>
 [SerialPrint](https://www.arduino.cc/reference/de/language/functions/communication/serial/println/)
+<br>
+[Schaltplan Symbole](https://www.build-electronic-circuits.com/schematic-symbols/)
 
  &nbsp;
