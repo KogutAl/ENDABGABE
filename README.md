@@ -553,6 +553,11 @@ void loop() {
 
  &nbsp;
  
+ ---
+### **Quellenangaben**
+---
+ 
+ 
 [Arduino Code Referenzen und Erklärungen](https://arduinogetstarted.com/de/reference/digitalread)
  <br>
 [Kapazitiver Sensor](https://www.youtube.com/watch?v=jco-uU5ZgEU)
