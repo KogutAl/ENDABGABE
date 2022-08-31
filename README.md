@@ -413,7 +413,8 @@ void loop() {
  Nun, da ich weiß, dass meine ersten drei Events seperat funktionieren, war mein nächster Schritt, alle Komponenten auf einem Steckbrett zu vereinen. Somit soll das Spielbrett/der Spielraum simuliert werden und festgestellt werden, ob noch alles so funktioniert wie es soll.
  Beim erstenne der seperaten Codes habe ich darauf geachtet, keine Pins doppelt zu belegen, sodass diese sich beim Zusammenfügen der Codes nicht gegenseitig im Wege stehen. An dieser Stelle läuft alles noch gut, aber stehen im Code noch keinem Bezug zueinander.
  
- ![Steckbrett mit 3 Buttons und 2 LEDs"](https://github.com/KogutAl/ENDABGABE/blob/main/pic_Final.jpg)
+ ![Steckbrett mit 3 Buttons und 2 LEDs"](https://github.com/KogutAl/ENDABGABE/blob/main/pic_1_Prototyp.jpg)
+ 
  
  &nbsp;
 
@@ -515,7 +516,7 @@ void loop() {
  ##### ERGEBNIS
  Der Text wird wie gewünscht mit den Drücken der Knöpfe oder der Abfolge von Befehlen (Lichtflacker-Event) wiedergegeben. 
  
- ![Steckbrett und Laptop. Ausgabe des Serial Monitors besagt "Knopf wird gedrückt"](https://github.com/KogutAl/ENDABGABE/blob/main/pic_serialprint.jpg)
+ ![Steckbrett und Laptop. Ausgabe des Serial Monitors besagt "Knopf wird gedrückt"](https://github.com/KogutAl/ENDABGABE/blob/main/pic_Final.jpg)
  
  &nbsp;
  
